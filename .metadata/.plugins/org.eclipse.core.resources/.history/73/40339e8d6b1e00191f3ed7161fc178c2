@@ -31,9 +31,8 @@ public class Garage {
 		return vehicleList;		
 	}
 	
-	public String toString() {		
-		
-		return "Vehicle ID: " + vehicleID + " Age: " + age + " Job Title: " + jobTitle;
+	public String toString() {
+		return "Name: " + name + " Age: " + age + " Job Title: " + jobTitle;
 
 	}
 

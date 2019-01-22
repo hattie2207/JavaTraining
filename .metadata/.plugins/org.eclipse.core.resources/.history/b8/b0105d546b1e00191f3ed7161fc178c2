@@ -25,16 +25,10 @@ public class Garage {
 		return bill;
 	}
 	
-	public static ArrayList<Vehicle> addVehicle(ArrayList<Vehicle> vehicleList){
+	public static ArrayList<Vehicle> addVehicle(){
 		
 		
 		return vehicleList;		
-	}
-	
-	public String toString() {		
-		
-		return "Vehicle ID: " + vehicleID + " Age: " + age + " Job Title: " + jobTitle;
-
 	}
 
 	public static void main(String[] args) {

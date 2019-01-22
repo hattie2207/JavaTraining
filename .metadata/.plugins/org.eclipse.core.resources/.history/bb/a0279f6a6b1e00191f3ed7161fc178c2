@@ -30,12 +30,6 @@ public class Garage {
 		
 		return vehicleList;		
 	}
-	
-	public String toString() {		
-		
-		return "Vehicle ID: " + vehicleID + " Age: " + age + " Job Title: " + jobTitle;
-
-	}
 
 	public static void main(String[] args) {
 

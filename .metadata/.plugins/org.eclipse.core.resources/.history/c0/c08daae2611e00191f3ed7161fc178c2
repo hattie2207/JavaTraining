@@ -2,8 +2,6 @@ package LevelTwo.Garage;
 
 import java.util.ArrayList;
 
-import LevelTwo.Person;
-
 public class Garage {
 	
 	public static int calculateBill(ArrayList<Vehicle> vehicleList) {
@@ -24,18 +22,6 @@ public class Garage {
 		
 		return bill;
 	}
-	
-	public static ArrayList<Vehicle> addVehicle(ArrayList<Vehicle> vehicleList){
-		
-		
-		return vehicleList;		
-	}
-	
-	public String toString() {		
-		
-		return "Vehicle ID: " + vehicleID + " Age: " + age + " Job Title: " + jobTitle;
-
-	}
 
 	public static void main(String[] args) {
 
@@ -47,10 +33,6 @@ public class Garage {
 		vehicleList.add(carOne);
 		vehicleList.add(motorOne);
 		vehicleList.add(bikeOne);
-		
-		for (Vehicle i : vehicleList) {
-			System.out.println(i);
-		}		
 
 	}
 
