@@ -4,7 +4,7 @@ public class Bicycle extends Vehicle {
 	
 	private int gear = 0;
 
-	public Bicycle(int vehicleID, String vehicleType, int gear) {
+	public Bicycle(int gear, int vehicleID, String vehicleType) {
 		super(vehicleID, vehicleType);
 		
 		this.gear = gear;

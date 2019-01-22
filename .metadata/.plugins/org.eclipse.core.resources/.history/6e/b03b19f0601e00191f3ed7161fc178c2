@@ -7,10 +7,10 @@ public class Vehicle {
 	private int vehicleID = 0;
 	private String vehicleType = "";
 
-	public Vehicle(int vehicleID, String vehicleType) {
-		this.vehicleID = vehicleID;
-		this.vehicleType = vehicleType;
-
+	public Vehicle(String ownerName, int price, String colour) {
+		this.ownerName = ownerName;
+		this.price = price;
+		this.colour = colour;
 	}
 	
 }

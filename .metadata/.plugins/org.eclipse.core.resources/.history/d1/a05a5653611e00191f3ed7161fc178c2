@@ -27,7 +27,7 @@ public class Garage {
 
 		Car carOne = new Car(0, "Car", 4);
 		Motorcycle motorOne = new Motorcycle(1, "Motorcycle", 100);
-		Bicycle bikeOne = new Bicycle(2, "Bicycle", 6);
+		Bicycle bikeOne = new Bicycle(2, "Bicycle", 4);
 
 		ArrayList<Vehicle> vehicleList = new ArrayList<Vehicle>();
 		vehicleList.add(carOne);

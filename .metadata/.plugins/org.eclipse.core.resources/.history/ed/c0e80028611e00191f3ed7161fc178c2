@@ -4,7 +4,7 @@ public class Motorcycle extends Vehicle {
 	
 	private int horsepower = 0; 
 
-	public Motorcycle(int vehicleID, String vehicleType, int horsepower) {
+	public Motorcycle(int horsepower, int vehicleID, String vehicleType) {
 		super(vehicleID, vehicleType);
 		
 		this.horsepower = horsepower;
