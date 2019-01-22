@@ -1,0 +1,29 @@
+
+public class LevelTwo {
+
+	static String outputMessage = "";
+
+	public static String blackJack(int firstNumber, int secondNumber) {		
+
+		if (firstNumber > 0 && secondNumber > 0) {
+			if (firstNumber <= 21 && secondNumber <= 21) {
+				if (firstNumber > secondNumber) {
+					outputMessage = "First player win with the value of: " + firstNumber; 
+				}
+				else if (secondNumber > firstNumber) {
+					outputMessage = "Second player win with the value of: " + secondNumber; 
+				}
+				else if (firstNumber == secondNumber) {
+					outputMessage = "It's a draw with the value of: " + firstNumber; 
+				}		
+			}
+		}
+		else {
+			outputMessage = "Both integer values must be greater than 0";
+		}
+
+		return outputMessage;
+
+	}
+
+}

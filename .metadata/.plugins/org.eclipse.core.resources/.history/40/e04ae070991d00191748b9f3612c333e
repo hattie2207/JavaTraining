@@ -1,0 +1,14 @@
+
+public class LevelTwo {
+	
+	public static int blackJack(int firstNumber, int secondNumber) {
+		
+		int result = 0;
+		
+		
+		
+		return result; 
+		
+	}
+
+}
