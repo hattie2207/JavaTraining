@@ -16,21 +16,6 @@ public class Person {
 		return "Name: " + name + " Age: " + age + " Job Title: " + jobTitle;
 
 	}
-	
-	public String getName() {
-		return name; 
-	}
-	
-	public static Person searchByName(String name, ArrayList<Person> personList) {
-		
-		for (Person i : personList) {
-			if (i.getName().equals(name)) {
-				return i; 
-			}
-		}
-		
-		return null; 
-	}
 
 	public static void main(String[] args) {
 
@@ -45,12 +30,8 @@ public class Person {
 		
 		for (Person i : personList) {
 			System.out.println(i);
-		}			
-		
-		String personName = "Hattie";	
-		System.out.println("\nSearch for: " + personName);			
-		Person searchPerson = searchByName(personName, personList);
-		System.out.println(searchPerson);
+		}	
 
 	}
+
 }
