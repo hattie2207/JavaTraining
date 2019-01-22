@@ -26,7 +26,10 @@ public class UniqueSum {
 		else {
 			total = firstNumber; 
 		}
-		
+
+
+
+
 		outputMessage = "The unique sum is: " + total;
 
 		return outputMessage;

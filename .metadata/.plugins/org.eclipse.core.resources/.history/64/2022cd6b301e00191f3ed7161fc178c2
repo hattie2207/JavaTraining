@@ -3,7 +3,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		int firstNumber = 12;
+		int firstNumber = 14;
 		int secondNumber = 10;
 		int thirdNumber = 14; 
 		boolean condition = true; 
@@ -24,8 +24,7 @@ public class Main {
 		//Level 2
 		
 //		outputMessage = BlackJack.blackJack(firstNumber, secondNumber);		
-//		outputMessage = UniqueSum.uniqueSum(firstNumber, secondNumber, thirdNumber);
-		
+		outputMessage = UniqueSum.uniqueSum(firstNumber, secondNumber, thirdNumber);		
 		
 		
 		/*Calculator calc = new Calculator();				
