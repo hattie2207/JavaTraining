@@ -33,7 +33,7 @@ public class TooHot {
 		int temperature = 90;
 		boolean isSummer = true; 
 		
-		String outputMessage = TooHot.isTooHot(temperature, isSummer);
+		String outputMessage = isTooHot(temperature, isSummer);
 		
 		System.out.println(outputMessage);
 		

@@ -1,0 +1,31 @@
+
+public class People {
+
+	public class Person {
+
+		String name = "";
+		int age = 0;
+		String jobTitle = "";
+		
+		public Person(String personName, int personAge, String personJob) {
+			name = personName; 
+			age = personAge;
+			jobTitle = personJob; 			
+		}		
+
+		public String toString() {
+			return "Name: " + name + " Age: " + age + " Job Title: " + jobTitle;
+			
+		}
+
+	}
+	
+	
+
+	public static void main(String[] args) {
+		
+		Person p = new Person("N", 13, "J");
+
+	}
+
+}

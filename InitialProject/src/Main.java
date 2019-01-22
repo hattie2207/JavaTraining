@@ -8,8 +8,7 @@ public class Main {
 		boolean condition = true; 
 		int loopNumber = 3; 
 		int arrayNumbers[] = {0, 1, 2, 3, 0, 5, 6, 7, 0, 9};
-		int arrayOfInts[] = new int[10];	
-		
+		int arrayOfInts[] = new int[10];			
 		
 		String outputMessage = "";
 		
