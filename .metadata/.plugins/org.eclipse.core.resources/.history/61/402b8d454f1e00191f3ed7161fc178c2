@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 public class Person {
 
@@ -21,12 +20,7 @@ public class Person {
 
 		Person personOne = new Person("Hattie", 22, "Trainee");
 		Person personTwo = new Person("Tom", 23, "Consultant");
-		Person personThree = new Person("Patrick", 24, "Developer");		
-
-		ArrayList<Person> personList = new ArrayList<Person>();
-		personList.add(personOne);
-		personList.add(personTwo);
-		personList.add(personThree);
+		Person personThree = new Person("Patrick", 24, "Developer");
 
 	}
 
