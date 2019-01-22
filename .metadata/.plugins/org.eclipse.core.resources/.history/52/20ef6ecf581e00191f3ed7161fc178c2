@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class Person {
 
-	private String name = "";
-	private int age = 0;
-	private String jobTitle = "";
+	String name = "";
+	int age = 0;
+	String jobTitle = "";
 
 	public Person(String name, int age, String jobTitle) {
 		this.name = name;
