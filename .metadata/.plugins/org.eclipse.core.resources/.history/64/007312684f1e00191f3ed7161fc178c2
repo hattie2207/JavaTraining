@@ -27,10 +27,6 @@ public class Person {
 		personList.add(personOne);
 		personList.add(personTwo);
 		personList.add(personThree);
-		
-		for (Person i : personList) {
-			System.out.println(i);
-		}	
 
 	}
 
