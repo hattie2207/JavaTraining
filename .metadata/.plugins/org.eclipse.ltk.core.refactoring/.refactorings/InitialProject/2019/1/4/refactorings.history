@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;LevelTwo&apos; to &apos;BlackJack&apos;&#x0D;&#x0A;- Original project: &apos;InitialProject&apos;&#x0D;&#x0A;- Original element: &apos;LevelTwo&apos;&#x0D;&#x0A;- Renamed element: &apos;BlackJack&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LevelTwo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{LevelTwo.java[LevelTwo" matchStrategy="1" name="BlackJack" qualified="false" references="true" similarDeclarations="false" stamp="1548152125848" textual="false" version="1.0"/>
+</session>

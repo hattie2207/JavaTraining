@@ -23,7 +23,7 @@ public class Main {
 		
 		//Level 2
 		
-//		outputMessage = BlackJack.blackJack(firstNumber, secondNumber);		
+		outputMessage = BlackJack.blackJack(firstNumber, secondNumber);		
 		outputMessage = UniqueSum.uniqueSum(firstNumber, secondNumber, thirdNumber);		
 		
 		
