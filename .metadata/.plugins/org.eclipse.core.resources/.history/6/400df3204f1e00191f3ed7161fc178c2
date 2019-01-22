@@ -1,6 +1,6 @@
 
 public class Person {
-
+	
 	String name = "";
 	int age = 0;
 	String jobTitle = "";
@@ -17,10 +17,6 @@ public class Person {
 	}
 
 	public static void main(String[] args) {
-
-		Person personOne = new Person("Hattie", 22, "Trainee");
-		Person personTwo = new Person("Tom", 23, "Consultant");
-		Person personThree = new Person("Patrick", 24, "Developer");
 
 	}
 
