@@ -1,0 +1,14 @@
+package LevelTwo.Garage;
+
+public class Motorcycle extends Vehicle {	
+	
+	private int horsePower = 0; 
+
+	public Motorcycle(int horsePower, String ownerName, int price, String colour) {
+		super(ownerName, price, colour);
+		
+		this.horsePower = horsePower;
+		
+	}
+
+}

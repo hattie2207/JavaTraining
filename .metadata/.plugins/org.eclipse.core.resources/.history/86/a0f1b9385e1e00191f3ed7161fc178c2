@@ -1,7 +1,5 @@
 package LevelTwo.Garage;
 
-import java.util.ArrayList;
-
 public class Vehicle {
 
 	private String ownerName = "";
@@ -13,5 +11,11 @@ public class Vehicle {
 		this.price = price;
 		this.colour = colour;
 	}
-	
+
+	public static void main(String[] args) {
+
+		Car myCar = new Car(4, "Hattie", 3000, "Black")
+
+	}
+
 }
