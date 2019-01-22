@@ -3,13 +3,14 @@ package LevelTwo.Garage;
 public class Vehicle {
 
 	private String ownerName = "";
-	private int plateNumber = 0;
+	private int plateNumber 0;
 	private String colour = "";
 
-	public Vehicle(String ownerName, int plateNumber, String colour) {
-		this.ownerName = ownerName;
-		this.plateNumber = plateNumber;
+	public Vehicle(String make, String model, String colour, int numberOfWheels) {
+		this.make = make;
+		this.model = model;
 		this.colour = colour;
+		this.numberOfWheels = numberOfWheels;
 	}
 
 	public static void main(String[] args) {

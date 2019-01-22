@@ -1,0 +1,14 @@
+package LevelTwo.Garage;
+
+public class Bicycle extends Vehicle {
+	
+	
+
+	public Bicycle(String ownerName, int plateNumber, String colour) {
+		super(ownerName, plateNumber, colour);
+		
+		
+		
+	}
+
+}

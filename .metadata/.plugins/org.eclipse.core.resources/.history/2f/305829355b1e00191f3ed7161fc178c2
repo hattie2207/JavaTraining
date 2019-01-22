@@ -1,0 +1,12 @@
+package LevelTwo.Garage;
+
+public class Car extends Vehicle {
+	
+	private int numberOfDoors = 0;
+
+	public Car(String make, String model, String colour, int numberOfWheels) {
+		super(make, model, colour, numberOfWheels);
+		// TODO Auto-generated constructor stub
+	}
+
+}

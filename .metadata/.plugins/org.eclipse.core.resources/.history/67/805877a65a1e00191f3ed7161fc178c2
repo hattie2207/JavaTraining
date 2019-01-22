@@ -1,0 +1,5 @@
+package LevelTwo.Garage;
+
+public class Car extends Vehicle {
+
+}
