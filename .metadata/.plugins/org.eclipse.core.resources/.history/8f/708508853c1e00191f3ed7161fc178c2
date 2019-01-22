@@ -28,7 +28,7 @@ public class Main {
 		
 //		outputMessage = BlackJack.blackJack(firstNumber, secondNumber);		
 //		outputMessage = UniqueSum.uniqueSum(firstNumber, secondNumber, thirdNumber);
-//		outputMessage = TooHot.isTooHot(temperature, isSummer);
+		outputMessage = TooHot.isTooHot(temperature, isSummer);
 		
 		
 		/*Calculator calc = new Calculator();				
