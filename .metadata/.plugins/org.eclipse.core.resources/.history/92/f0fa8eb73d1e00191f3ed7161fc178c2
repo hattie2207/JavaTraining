@@ -46,7 +46,9 @@ public class BlackJack {
 		int firstNumber = 12;
 		int secondNumber = 10;
 		
-		String outputMessage = blackJack(firstNumber, secondNumber);		
+		String outputMessage = "";
+		
+		outputMessage = blackJack(firstNumber, secondNumber);		
 		
 		System.out.println(outputMessage);
 		

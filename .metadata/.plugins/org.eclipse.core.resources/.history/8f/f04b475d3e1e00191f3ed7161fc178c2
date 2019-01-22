@@ -25,15 +25,15 @@ public class Main {
 		Calculator.iteration(firstNumber, secondNumber, loopNumber);	
 		System.out.println();
 		
-		System.out.println("Arrays:");
+		System.out.println("Iteration:");
 		Calculator.arrays(arrayNumbers);	
 		System.out.println();
 		
-		System.out.println("Print Array:");
+		System.out.println("Iteration:");
 		Calculator.printArrays(arrayNumbers);
 		System.out.println();
 		
-		System.out.println("Iteration Two:");
+		System.out.println("Iteration:");
 		Calculator.iterationTwo(arrayOfInts);	
 		
 		/*Calculator calc = new Calculator();				

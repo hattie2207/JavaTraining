@@ -43,12 +43,7 @@ public class BlackJack {
 	
 	public static void main(String[] args) {
 		
-		int firstNumber = 12;
-		int secondNumber = 10;
 		
-		String outputMessage = blackJack(firstNumber, secondNumber);		
-		
-		System.out.println(outputMessage);
 		
 	}
 

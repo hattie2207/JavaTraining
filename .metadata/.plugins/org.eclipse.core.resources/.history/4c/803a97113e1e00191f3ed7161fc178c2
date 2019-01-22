@@ -13,27 +13,14 @@ public class Main {
 		
 		String outputMessage = "";
 		
-		System.out.println("Conditionals One:");
 		outputMessage = Calculator.conditionalsOne(firstNumber, secondNumber, condition);
 		System.out.println(outputMessage + "\n");
-		
-		System.out.println("Conditionals Two:");
 		outputMessage = Calculator.conditionalsTwo(firstNumber, secondNumber);
-		System.out.println(outputMessage + "\n");
-		
-		System.out.println("Iteration:");
+		System.out.println(outputMessage);
 		Calculator.iteration(firstNumber, secondNumber, loopNumber);	
 		System.out.println();
-		
-		System.out.println("Arrays:");
 		Calculator.arrays(arrayNumbers);	
-		System.out.println();
-		
-		System.out.println("Print Array:");
 		Calculator.printArrays(arrayNumbers);
-		System.out.println();
-		
-		System.out.println("Iteration Two:");
 		Calculator.iterationTwo(arrayOfInts);	
 		
 		/*Calculator calc = new Calculator();				

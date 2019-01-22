@@ -17,7 +17,7 @@ public class UniqueSum {
 		}
 		else if (firstNumber == thirdNumber && firstNumber != secondNumber) {
 			total = firstNumber + secondNumber; 
-
+			
 		}
 		else if (secondNumber == thirdNumber && firstNumber != thirdNumber) {
 			total = firstNumber + secondNumber; 
@@ -26,22 +26,10 @@ public class UniqueSum {
 		else {
 			total = firstNumber; 
 		}
-
+		
 		outputMessage = "The unique sum is: " + total;
 
 		return outputMessage;
-	}
-
-	public static void main(String[] args) {
-
-		int firstNumber = 12;
-		int secondNumber = 10;
-		int thirdNumber = 14; 
-
-		String outputMessage = uniqueSum(firstNumber, secondNumber, thirdNumber);	
-
-		System.out.println(outputMessage);
-
 	}
 
 }

@@ -27,16 +27,5 @@ public class TooHot {
 
 		return outputMessage; 
 	}
-	
-	public static void main(String[] args) {
-		
-		int temperature = 90;
-		boolean isSummer = true; 
-		
-		String outputMessage = TooHot.isTooHot(temperature, isSummer);
-		
-		System.out.println(outputMessage);
-		
-	}
 
 }

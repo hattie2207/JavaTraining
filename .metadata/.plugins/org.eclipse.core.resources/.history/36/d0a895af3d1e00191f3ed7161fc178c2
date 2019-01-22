@@ -38,7 +38,9 @@ public class UniqueSum {
 		int secondNumber = 10;
 		int thirdNumber = 14; 
 
-		String outputMessage = uniqueSum(firstNumber, secondNumber, thirdNumber);	
+		String outputMessage = "";
+
+		outputMessage = uniqueSum(firstNumber, secondNumber, thirdNumber);	
 
 		System.out.println(outputMessage);
 

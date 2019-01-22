@@ -20,20 +20,12 @@ public class Main {
 		System.out.println("Conditionals Two:");
 		outputMessage = Calculator.conditionalsTwo(firstNumber, secondNumber);
 		System.out.println(outputMessage + "\n");
-		
-		System.out.println("Iteration:");
 		Calculator.iteration(firstNumber, secondNumber, loopNumber);	
 		System.out.println();
-		
-		System.out.println("Arrays:");
 		Calculator.arrays(arrayNumbers);	
 		System.out.println();
-		
-		System.out.println("Print Array:");
 		Calculator.printArrays(arrayNumbers);
 		System.out.println();
-		
-		System.out.println("Iteration Two:");
 		Calculator.iterationTwo(arrayOfInts);	
 		
 		/*Calculator calc = new Calculator();				
