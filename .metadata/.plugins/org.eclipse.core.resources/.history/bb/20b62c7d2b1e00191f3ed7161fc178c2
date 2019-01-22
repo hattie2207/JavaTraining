@@ -3,8 +3,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		int firstNumber = 11;
-		int secondNumber = 10;
+		int firstNumber = 21;
+		int secondNumber = 2;
 		boolean condition = true; 
 		int loopNumber = 3; 
 		int arrayNumbers[] = {0, 1, 2, 3, 0, 5, 6, 7, 0, 9};

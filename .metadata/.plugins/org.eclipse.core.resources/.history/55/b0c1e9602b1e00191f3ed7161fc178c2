@@ -11,19 +11,16 @@ public class LevelTwo {
 					outputMessage = "First player win with the value of: " + firstNumber; 
 					
 				}
-				else if  (secondNumber > firstNumber){
+				else {
 					outputMessage = "Second player win with the value of: " + secondNumber; 			
 					
 				}
-				else {
-					outputMessage = "It's a draw with the value of: " + secondNumber; 			
-				}
 			}
-			else if (firstNumber > 21 && secondNumber <= 21) {
+			else if (firstNumber > 21) {
 				outputMessage = "Second player win with the value of: " + secondNumber; 
 
 			}
-			else if (secondNumber > 21 && firstNumber <= 21) {
+			else if (secondNumber > 21) {
 				outputMessage = "First player win with the value of: " + firstNumber; 
 				
 			}

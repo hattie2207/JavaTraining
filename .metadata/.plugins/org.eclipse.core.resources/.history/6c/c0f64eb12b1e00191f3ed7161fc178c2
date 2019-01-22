@@ -23,7 +23,7 @@ public class LevelTwo {
 				outputMessage = "Second player win with the value of: " + secondNumber; 
 
 			}
-			else if (secondNumber > 21 && firstNumber <= 21) {
+			else if (secondNumber > 21) {
 				outputMessage = "First player win with the value of: " + firstNumber; 
 				
 			}
