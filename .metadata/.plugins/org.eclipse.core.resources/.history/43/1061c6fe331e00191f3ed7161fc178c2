@@ -1,0 +1,32 @@
+
+public class TooHot {
+	
+	public static String isTooHot (int temperature, boolean isSummer) {
+		
+		String outputMessage = "";
+		boolean tooHot = true; 
+		
+		if (isSummer == true) {
+			if (temperature <= 60 || temperature <= 100) {
+				outputMessage = "Summer is: " + isSummer + " and temperature is: " + temperature;
+			}
+			else {
+				isSummer = false; 
+				outputMessage = "Summer is: " + isSummer + " and temperature is: " + temperature;
+			}
+		}else {
+			if (temperature <= 60 || temperature <= 90) {
+				outputMessage = "Summer is: " + isSummer + " and temperature is: " + temperature;
+			}
+			else {
+				outputMessage = "It is summer and temperature is between 60-100";
+			}
+			
+		}
+		
+		
+		
+		return outputMessage; 
+	}
+
+}

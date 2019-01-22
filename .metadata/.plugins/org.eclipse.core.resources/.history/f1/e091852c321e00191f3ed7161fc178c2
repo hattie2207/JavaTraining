@@ -1,0 +1,11 @@
+
+public class TooHot {
+	
+	public static String isTooHot (int temperature, boolean isSummer) {
+		
+		String outputMessage = "";
+		
+		return outputMessage; 
+	}
+
+}

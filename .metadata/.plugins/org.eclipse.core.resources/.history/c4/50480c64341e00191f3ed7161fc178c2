@@ -1,0 +1,33 @@
+
+public class TooHot {
+	
+	public static String isTooHot (int temperature, boolean isSummer) {
+		
+		String outputMessage = "";
+		boolean tooHot = true; 
+		
+		if (isSummer == true) {
+			if (temperature <= 60 || temperature <= 100) {
+				tooHot = false; 
+				outputMessage = "Too hot is: " + tooHot + " and temperature is: " + temperature;
+			}
+			else {
+				isSummer = false; 
+				outputMessage = "Too hot is: " + tooHot + " and temperature is: " + temperature;
+			}
+		}else {
+			if (temperature <= 60 || temperature <= 90) {
+				outputMessage = "Too hot is: " + tooHot + " and temperature is: " + temperature;
+			}
+			else {
+				outputMessage = "Too hot is: " + tooHot + " and temperature is: " + temperature;
+			}
+			
+		}
+		
+		
+		
+		return outputMessage; 
+	}
+
+}
