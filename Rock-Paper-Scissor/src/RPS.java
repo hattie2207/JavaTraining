@@ -37,7 +37,7 @@ public class RPS
 		
 		endGameStats();
 	}
-	/*
+	
 	private float mostPickedPlayerOptionBetter()
 	{
 		Map<String, Integer> optionsMap = new HashMap<String, Integer>();
@@ -58,12 +58,14 @@ public class RPS
 		    }
 		});
 		
-		HashMap<String, Integer> sdfsd = (HashMap<String, Integer>)arrayModeOptions;
-		System.out.println(sdfsd);
+		if(arrayModeOptions[0].equals(0))
+		{
+			
+		}
 		
 		return 0;
 	}
-	*/
+	
 	private float mostPickedPlayerOption()
 	{
 		float percentage = 0;

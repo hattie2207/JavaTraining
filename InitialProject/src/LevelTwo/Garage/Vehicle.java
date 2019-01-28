@@ -1,7 +1,5 @@
 package LevelTwo.Garage;
 
-import java.util.ArrayList;
-
 public class Vehicle {
 
 	private int vehicleID = 0;
@@ -12,5 +10,17 @@ public class Vehicle {
 		this.vehicleType = vehicleType;
 
 	}
+	
+	public String toString() {				
+		return "Vehicle ID: " + vehicleID + " Vehicle Type: " + vehicleType;
+	}
+
+	public int getVehicleID() {
+		return vehicleID;
+	}
+
+	public String getVehicleType() {
+		return vehicleType;
+	}	
 	
 }

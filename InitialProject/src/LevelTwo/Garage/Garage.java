@@ -2,51 +2,58 @@ package LevelTwo.Garage;
 
 import java.util.ArrayList;
 
-import LevelTwo.Person;
-
 public class Garage {
 	
-	public static int calculateBill(ArrayList<Vehicle> vehicleList) {
+	private static ArrayList<Vehicle> vehicleList = new ArrayList<Vehicle>();
+	private int bill = 0;
+	
+	public void addVehicle(Vehicle vehicle){
 		
-		int bill = 0;
+		vehicleList.add(vehicle);
+
+	}
+	
+	public void removeVehicleByID(int vehicleID){
 		
-		for (Vehicle i : vehicleList) {
-			if (i instanceof Car) {
-				bill = 500; 
-			}
-			else if (i instanceof Motorcycle) {
-				bill = 300;
-			}
-			else {
-				bill = 20; 
-			}
+		vehicleList.removeIf(obj -> obj.getVehicleID() == vehicleID);
+
+	}
+	
+	public void removeVehicleByType(String vehicleType) {
+		
+		vehicleList.removeIf(obj -> obj.getVehicleType() == vehicleType);
+	}
+	
+	public int fixVehicle(Vehicle vehicle) {
+		
+		if (vehicle instanceof Car) {
+			bill = 500; 
+		}
+		else if (vehicle instanceof Motorcycle) {
+			bill = 300;
+		}
+		else {
+			bill = 20; 
 		}
 		
 		return bill;
-	}
-	
-	public static ArrayList<Vehicle> addVehicle(ArrayList<Vehicle> vehicleList){
 		
-		
-		return vehicleList;		
-	}
-	
-	public String toString() {		
-		
-		return "Vehicle ID: " + vehicleID + " Age: " + age + " Job Title: " + jobTitle;
-
 	}
 
 	public static void main(String[] args) {
+		
+		Garage garageOne = new Garage();
 
 		Car carOne = new Car(0, "Car", 4);
 		Motorcycle motorOne = new Motorcycle(1, "Motorcycle", 100);
 		Bicycle bikeOne = new Bicycle(2, "Bicycle", 6);
-
-		ArrayList<Vehicle> vehicleList = new ArrayList<Vehicle>();
-		vehicleList.add(carOne);
-		vehicleList.add(motorOne);
-		vehicleList.add(bikeOne);
+		
+		garageOne.addVehicle(carOne);
+		garageOne.addVehicle(motorOne);
+		garageOne.addVehicle(bikeOne);
+		
+		garageOne.removeVehicleByID(0);
+		garageOne.removeVehicleByType("Bicycle");
 		
 		for (Vehicle i : vehicleList) {
 			System.out.println(i);
