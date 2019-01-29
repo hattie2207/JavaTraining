@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 public class Garage {
 	
-	private static ArrayList<Vehicle> vehicleList = new ArrayList<Vehicle>();
-	private int bill = 0;
+	private ArrayList<Vehicle> vehicleList = new ArrayList<Vehicle>();
 	
 	public void addVehicle(Vehicle vehicle){
 		
@@ -24,7 +23,9 @@ public class Garage {
 		vehicleList.removeIf(obj -> obj.getVehicleType() == vehicleType);
 	}
 	
-	public int fixVehicle(Vehicle vehicle) {
+	public String  fixVehicle(Vehicle vehicle) {
+		
+		int bill = 0;
 		
 		if (vehicle instanceof Car) {
 			bill = 500; 
@@ -36,29 +37,21 @@ public class Garage {
 			bill = 20; 
 		}
 		
-		return bill;
+		return "The bill for " + vehicle + " is £" + bill;
 		
 	}
-
-	public static void main(String[] args) {
+	
+	public void emptyGarage() {
 		
-		Garage garageOne = new Garage();
-
-		Car carOne = new Car(0, "Car", 4);
-		Motorcycle motorOne = new Motorcycle(1, "Motorcycle", 100);
-		Bicycle bikeOne = new Bicycle(2, "Bicycle", 6);
-		
-		garageOne.addVehicle(carOne);
-		garageOne.addVehicle(motorOne);
-		garageOne.addVehicle(bikeOne);
-		
-		garageOne.removeVehicleByID(0);
-		garageOne.removeVehicleByType("Bicycle");
+		vehicleList.clear();
+	}
+	
+	public void printVehicleList() {
 		
 		for (Vehicle i : vehicleList) {
 			System.out.println(i);
 		}		
-
+		
 	}
 
 }

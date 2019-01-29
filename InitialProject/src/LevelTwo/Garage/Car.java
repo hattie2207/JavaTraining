@@ -9,5 +9,6 @@ public class Car extends Vehicle {
 		
 		this.numberOfDoors = numberOfDoors;
 	}
+	
 
 }
