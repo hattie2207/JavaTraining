@@ -1,4 +1,4 @@
-package LevelTwo;
+package levelTwo;
 
 public class BlackJack {
 

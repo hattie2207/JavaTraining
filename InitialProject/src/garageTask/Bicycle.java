@@ -1,4 +1,4 @@
-package LevelTwo.Garage;
+package garageTask;
 
 public class Bicycle extends Vehicle {
 	

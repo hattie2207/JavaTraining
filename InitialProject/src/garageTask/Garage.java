@@ -1,4 +1,4 @@
-package LevelTwo.Garage;
+package garageTask;
 
 import java.util.ArrayList;
 

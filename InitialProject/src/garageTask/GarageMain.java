@@ -1,4 +1,4 @@
-package LevelTwo.Garage;
+package garageTask;
 
 public class GarageMain {
 
@@ -20,8 +20,8 @@ public class GarageMain {
 		garageOne.fixVehicle(carOne);
 		garageOne.printVehicleList();
 
-//		garageOne.emptyGarage();
-//		garageOne.printVehicleList();
+		garageOne.emptyGarage();
+		garageOne.printVehicleList();
 		
 
 	}

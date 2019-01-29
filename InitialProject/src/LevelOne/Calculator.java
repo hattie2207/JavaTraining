@@ -1,4 +1,4 @@
-package LevelOne;
+package levelOne;
 
 public class Calculator {
 	

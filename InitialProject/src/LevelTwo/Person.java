@@ -1,4 +1,4 @@
-package LevelTwo;
+package levelTwo;
 import java.util.ArrayList;
 
 public class Person {
